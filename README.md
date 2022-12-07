@@ -8,8 +8,11 @@
 |pwd |se usa para mostrar el nombre de su directorio actual, lo que puede ser útil al navegar por el sistema de archivos. |pwd |
 |cd |se usa para cambiar el directorio de trabajo actual de un usuario.  |cd *carpeta* |
 |ls |Se utiliza para enumerar archivos y directorios en sistemas operativos Unix y similares a Unix, incluido Linux. |ls -la |
+|nano |crea  un archivo |nano helloworld.txt |
+|more |muestra el conteido de archivos de texto grandes |more *archivo* |
 |cat |se usa para mostrar lo que hay dentro de un archivo de texto. |cat *archivo.txt* |
 |cp |se utiiliza para copiar archivos o directorios a otro directorio |cp foto.jpg public_html/imagenes/ |
+|tail |Imprime las últimas líneas que se especifiquen en un archivo |tail [parámetros] <archivos> |
 |mv |se usa para mover y renombrar archivos. |mv foto.jpg nombrecambiado.jpg |
 |mkdir |se usa para crear directorios y subdirectorios que son una parte integral del sistema operativo Linux.  |mkdir /home/imagenes |
 |rmdir |se usa para eliminar un directorio vacío y su contenido del sistema de archivos. |rmdir *carpeta* |
@@ -39,7 +42,7 @@
 |docker pull|Descarga la imagen del contenedor | docker pull ubuntu:latest|
 |docker run|Ejecuta un nuevo contenedor usando una imagen|docker run ubuntu |
 |sudo docker ps -a| observar el estado actual de los contendeores |contendor up 17min ago, contendor2 exited |
-|sudo  docker start |inicializa un contendor detenido | sudo docker satart cinnamonCandy (nombre del contenedor) |
+|sudo  docker start |inicializa un contendor detenido | sudo docker start cinnamonCandy (nombre del contenedor) |
 |sudo  docker stop| detiene un contenedor en estado run |sudo docker stop cinnamonCandy |
 |docker rmi image|Elimina una imagen dentro de docker|docker rmi image ubuntu |
 |docker rmi image + ID|elimina un contenedor |docekr rmi 8765rt |
@@ -50,38 +53,18 @@
 |RUN|indica los comandos a ejecutar |RUN echo "Hello world" |
 |ADD|añade elementos |ADD ficheros /index.html |
 |:wq|Guardar un archivo vim y sale del archivo |vim Dockerfile 1 <ctrl o> :wq|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+# Lista-de-comandos-MABJARO
+|Comandos| Descipción| Ejemplos|
+|-------|-----------|---------|
+|sudo pacman -Syy|Actualizar el sistema |sudo pacman -Syy|
+|sudo pacman -S| Instalación de un programa en manjaro|sudo pacman -S paquete|
+|sudo pacman -Scc| Limpiar el sitema en manjaro|sudo pacman -Scc: emepieza a limpira cache y demás basura|
+|pacman -R|Elimina el paquete que se indique en manjaro |pacman -R (paquete)|
+|pacman -Q|Muestra los paquetes instalados|pacman -Q|
+|yay -S google-chrome|instala google chrome | yay -S google-chrome|
+|sudo pacMan -S apache|instala apache |nano /svr/html/index.html|
+|neofetch| muestra infromación del SO| neofetc|
+|sudo pacman -S unrar zip unzip p7zip gzip bzip2 | instala zip| zip students.txt |
 
 
 
