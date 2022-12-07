@@ -1,5 +1,5 @@
 # Lista-de-comandos
-|--------|Docker|-----------------------|
+|--------|   LINUX   |---------|
 |Comandos| Descipción| Ejemplos|
 |-------|-----------|---------|
 |sudo |permite actuar como superusuario o usuario root mientras ejecutas un comando específico.  |sudo apt install *aplicacion* |
@@ -31,8 +31,7 @@
 |clear |Limpia la pantalla de la terminal |clear |
 |ip a |Muestra la direccion ip de la máquina |ip a |
 |history |	Muestra el historial de todos los comandos que hemos usado |history |
-|whoami |Indica el usuario que se esta utilizando |Whoami "jthorpem606 |
-|--------|Docker|-----------------------|
+|--------|   DOCKER   |---------|
 |`sudo yay -S --needed base-devel`|Muestra el repositorio core |36,0 k |
 |`docker images`|visualizar las imagenes descargadas |images docker: ubuntu, Id:60987653 |
 |`docker search`|Busca en el repositorio de Docker Hub una imagen con ese nombre|docker search ubuntu |
